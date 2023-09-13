@@ -23,7 +23,7 @@ for K in K_values:
     q = -K * A * delta_T / x
     C_tot = no_wndws * -q * pwr_cost * no_hrs
 
-    results.append(C_tot)
+    results.append((q, C_tot))
 
-for i, cost in enumerate(results):
-    print(f"Total cost for K={K_values[i]} is ${cost:.2f}")
+for i, (q, cost) in enumerate(results):
+    print(f"Total cost for K={K_values[i]} is ${cost:.2f} for heat loss of q={q:.2f}")
