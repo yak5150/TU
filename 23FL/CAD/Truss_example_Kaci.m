@@ -13,22 +13,23 @@ L_B= sqrt(4^2+6^2);
 klocal=[ 1 0 -1 0;0 0 0 0;-1 0 1 0;0 0 0 0];
 
 %calc k in global cords for each memeber 
-[T_A K_A] = kglobal(theta_A,L_A,A,E)
-[T_B K_B] = kglobal(theta_B,L_B,A,E)
-%Assemble the Global K matrix 
+[T_A, K_A] = kglobal(theta_A,L_A,A,E)
+[T_B, K_B] = kglobal(theta_B,L_B,A,E)
+
+%Assemble the Global K matrix
 K = [K_A(1,1), K_A(1,2), K_A(1,3), K_A(1,4), 0, 0;
-    K_A(2,1),K_A(2,2),K_A(2,3),K_A(2,4),0,0;
-    K_A(3,1),K_A(3,2),K_A(3,3)+K_B(1,1),K_A(3,4)+K_B(1,2),K_B(1,3),K_B(1,4);
-    K_A(4,1),K_A(4,2),K_A(4,3)+K_B(2,1),K_A(4,4)+K_B(2,2),K_B(2,3),K_B(2,4);
-    0,0,K_B(3,1),K_B(3,2),K_B(3,3),K_B(3,4);
-    0,0,K_B(4,1),K_B(4,2),K_B(4,3),K_B(4,4)];
-    %matrix should sum up to zero if it was done correctly 
+    K_A(2,1), K_A(2,2), K_A(2,3), K_A(2,4), 0, 0;
+    K_A(3,1), K_A(3,2), K_A(3,3)+K_B(1,1), K_A(3,4)+K_B(1,2), K_B(1,3), K_B(1,4);
+    K_A(4,1), K_A(4,2), K_A(4,3)+K_B(2,1), K_A(4,4)+K_B(2,2), K_B(2,3), K_B(2,4);
+    0, 0, K_B(3,1), K_B(3,2), K_B(3,3), K_B(3,4);
+    0, 0, K_B(4,1), K_B(4,2), K_B(4,3), K_B(4,4)];
+    %matrix should sum up to zero if it was done correctly
 
 %Recuded system of equations based on boundary conditions 
     %we're ignoring any unknown variables, just keeping rows for x2 and y2 
-k_con=K([3,4],[3,4]);
+k_con=K([3:4],[3:4])
 %column vector of our known forces
-F = [60;-30;0];
+F = [50;0];
 
 %SOlve for unknown displacments
 X= k_con\F;

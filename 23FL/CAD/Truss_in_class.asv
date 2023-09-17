@@ -39,23 +39,23 @@ K_bndry = K_global(3:5,3:5);
 xySolve_1 = K_bndry\F_bndry; 
 
 %Construct full displacment vector in global cords
-xySolve_2 = [0;0;xySolve_1(1);xySolve_1(2);xySolve_1(3);0;]
+xySolve_2 = [0;0;xySolve_1(1);xySolve_1(2);xySolve_1(3);0;];
 
 %Calculate reaction forces
-F_react = K_global * xySolve_2
+F_react = K_global .* xySolve_2;
 
 %Find local displacments for each element
 %local x_local=transfor*X_gloabal
-X_local_A = T_A*[xySolve_2(1:4)];
-X_local_B = T_B*[xySolve_2(3:6)];
-X_local_C = T_C*[xySolve_2(1:2);xySolve_2(5:6)];
+Xlocal_A = T_A*[xySolve_2(1:4)];
+Xlocal_B = T_B*[xySolve_2(3:6)];
+Xlocal_C = T_C*[xySolve_2(1:2);xySolve_2(5:6)];
 
 %Calculate axial force
-F_axial_A = (E*csa/length_A)*K_local*X_local_A
-F_axial_B = (E*csa/length_B)*K_local*X_local_B
-F_axial_C = (E*csa/length_C)*K_local*X_local_C
+Faxial_A = (E*csa/length_A)*K_local*X_local_A
+Faxial_B = (E*csa/length_B)*K_local*X_local_B
+Faxial_C = (E*csa/length_C)*K_local*Xlocal_C
 
 %Calculate stress
-stress_A = F_axial_A/csa
-stress_B = F_axial_B/csa
-stress_C = F_axial_C/csa
+stress_A = Faxial_A/csa
+stress_B = Faxial_B/csa
+stress_C = Faxial_C/csa
