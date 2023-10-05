@@ -1,0 +1,16 @@
+[StartTime]
+Cam Follower (Part)-Static 1.MFC=2s
+[SolverState]
+Cam Follower (Part)-Static 1.MFC=2
+[MainFrame]
+Cam Follower (Part)-Static 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPDMFAAAAAOCDAAAAAODJAAAAACEFAAAAA
+[ShowMin]
+Cam Follower (Part)-Static 1.MFC=No
+[SolverType]
+Cam Follower (Part)-Static 1.MFC=Linear Analysis
+[StudyType]
+Cam Follower (Part)-Static 1.MFC=0
+[StudyName]
+Cam Follower (Part)-Static 1.MFC=Static 1
+[Solver]
+Cam Follower (Part)-Static 1.MFC=Sparse
