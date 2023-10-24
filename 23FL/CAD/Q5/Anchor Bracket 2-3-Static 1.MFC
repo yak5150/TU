@@ -1,0 +1,16 @@
+[StartTime]
+Anchor Bracket 2-3-Static 1.MFC=3s
+[SolverState]
+Anchor Bracket 2-3-Static 1.MFC=2
+[MainFrame]
+Anchor Bracket 2-3-Static 1.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPDMFAAAAAOCDAAAAAODJAAAAACEFAAAAA
+[ShowMin]
+Anchor Bracket 2-3-Static 1.MFC=No
+[SolverType]
+Anchor Bracket 2-3-Static 1.MFC=Linear Analysis
+[StudyType]
+Anchor Bracket 2-3-Static 1.MFC=0
+[StudyName]
+Anchor Bracket 2-3-Static 1.MFC=Static 1
+[Solver]
+Anchor Bracket 2-3-Static 1.MFC=Sparse
