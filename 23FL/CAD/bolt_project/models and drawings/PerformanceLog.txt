@@ -1,2 +1,2 @@
 Number of Contacts: 2
-Number of contact data: 6888
+Number of contact data: 1912
