@@ -1,0 +1,16 @@
+[StartTime]
+Bolt Project Assy-Static 3.MFC=2m:7s
+[SolverState]
+Bolt Project Assy-Static 3.MFC=2
+[MainFrame]
+Bolt Project Assy-Static 3.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPDMFAAAAAOCDAAAAAODJAAAAACEFAAAAA
+[ShowMin]
+Bolt Project Assy-Static 3.MFC=No
+[SolverType]
+Bolt Project Assy-Static 3.MFC=Linear Analysis
+[StudyType]
+Bolt Project Assy-Static 3.MFC=0
+[StudyName]
+Bolt Project Assy-Static 3.MFC=Static 3
+[Solver]
+Bolt Project Assy-Static 3.MFC=Sparse
