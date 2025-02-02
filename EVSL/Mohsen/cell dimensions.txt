@@ -1,0 +1,17 @@
+cell dimensions
+21mm diam 70mm L (0.35 counterbor)
+
+plastic holder - inscribe "21mm", raise to center
+
+plastic cell - inscribe center mark
+
+Brain storm ways to fasten testing jigs to base. Need some flexibility b/c design is not finished.
+- maybe thread steel part and slot alum part - wires in way when adjusting
+- tighter fit 
+- 3D print both to test
+- order stock - Dr. S
+- make flat 2-3mm longer
+- inscribe size
+
+Copper cell blanks
+- 70mm target, minimize length of all if not enough stock

@@ -1,0 +1,38 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:9cb786e8-586a-4950-8901-fff8d2ee6025</distributor>
+  <operatorURL>https://acs.ebookcentral.proquest.com/fulfillment</operatorURL>
+  <transaction>892225_446914851</transaction>
+  <purchase>2024-04-15T13:13:49+00:00</purchase>
+  <expiration>2024-04-15T19:13:49+00:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:00000000-0000-0000-0000-000000892225</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Tire and Vehicle Dynamics</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Pacejka, Hans;Besselink, I. J. M.;Pacejka, Hans;Besselink, Igo J. M.;</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Elsevier Science &amp; Technology</dc:publisher>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/">892225</dc:identifier>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:00000000-0000-0000-0000-000000892225</resource>
+      <permissions>
+        <display>
+          <duration>31535999</duration>
+        </display>
+        <excerpt>
+          <duration>31535999</duration>
+          <count initial="130" max="130" incrementInterval="242584"/>
+        </excerpt>
+        <print>
+          <duration>31535999</duration>
+          <count initial="130" max="130" incrementInterval="242584"/>
+        </print>
+        <play>
+          <duration>31535999</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>eAMYRZQkMtWr6z5g7R+6MBlDmY0=</hmac>
+</fulfillmentToken>

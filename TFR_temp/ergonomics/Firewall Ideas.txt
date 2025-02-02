@@ -1,0 +1,18 @@
+Firewall Ideas
+- shape will be straight up from front of tank, then angle back
+	- pass under first cross bar
+- reasonably sized rectangular cutout above fuel tank
+	- Dzus pins probably fine here
+- firewall mounts to tabs with clip nuts
+- split primary wall down center
+- cut perfect profile of chassis out of sides
+- mount wall to engine, replace breather with threaded plate (keep intake mount holes)
+- ensure belts don't touch hot part and are blocked from fuel
+- come up with clever wall for fuel - maybe run neck back and up
+- LTC velcro to wall or cell
+- Al tape all seems
+- lambda and harness pass through right side of secondary wall, add soft edge
+- small titrary wall infront of runners to meet rules
+- barrel connector placed low to the right in primary wall
+- small adaptor plate for barrel connector, ~2 dzus fasteners, Al tape to seal (this way harness can be easily removed on flanged connector side)
+- barrel connector right on access panel
